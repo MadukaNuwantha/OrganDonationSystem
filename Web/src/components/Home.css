@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@800&display=swap');
+
+.contBoxh{
+    font-family: 'Jost', sans-serif;
+    margin: 0% 5% 0% 5%;
+    padding: 0% 5% 0% 5%;
+}
+
+.headerRoundh{
+    padding: 25px 25px 25px 25px; 
+    margin: 150px 15px 50px 15px;
+    background: rgb(119,195,186);
+    background: linear-gradient(149deg, rgba(119,195,186,1) 0%, rgba(91,149,161,1) 100%);
+    height: auto;
+    border-radius: 45px;
+}
+
+.bgImage{
+    position: absolute;
+    height: 300px;
+    left: 65%;
+    top: 100px;
+    border-radius: 120px;
+}
+
+.button-7 {
+    background-color: #629288;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 50px;
+    cursor: pointer;
+    border-radius: 28px;
+}
+
+.rectangle{
+    background-color: rgba(132,148,242,1);
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 28px;
+    padding: 30px;
+}

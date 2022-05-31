@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+.bgc{
+    background: rgb(169,204,210);
+    background: linear-gradient(145deg, rgba(169,204,210,1) 0%, rgba(131,138,227,1) 100%);
+    height: fit-content;
+    padding: 360px 80px 45px 80px;
+    margin: 150px 30px 45px 30px;
+    border-radius: 170px;
+}
+
+.bgs{
+    background: rgb(169,204,210);
+    background: linear-gradient(145deg, rgba(169,204,210,1) 0%, rgba(131,138,227,1) 100%);
+    height: fit-content;
+    padding: 45px 80px 45px 80px;
+    margin: 45px 30px 45px 30px;
+    border-radius: 170px;
+}
+
+.img{
+    position: absolute;
+    height: 450px;
+    left: 1100px;
+    top: 100px;
+    border-radius: 170px;
+}
+
+.txtPane{
+    padding: 0% 45% 0% 5%;
+}
+
+.trheight{
+    line-height: 50px;
+}
+
+.tddata{
+    font-family: 'Lato', sans-serif;
+}

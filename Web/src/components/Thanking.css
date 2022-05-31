@@ -1,0 +1,20 @@
+.bgcm{
+    background: rgb(169,204,210);
+    background: linear-gradient(145deg, rgba(129,197,177,1) 0%, rgba(113,169,185,1) 100%);
+    height: fit-content;
+    padding: 220px 80px 45px 80px;
+    margin: 120px 30px 45px 30px;
+    border-radius: 170px;
+}
+
+.imgm{
+    position: absolute;
+    height: 300px;
+    left: 65%;
+    top: 100px;
+    border-radius: 120px;
+}
+
+.txtPanem{
+    padding: 0% 45% 0% 5%;
+}

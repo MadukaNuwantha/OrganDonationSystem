@@ -1,0 +1,10 @@
+.st{
+    height: 35px;
+    background: rgb(128,149,217);
+    background: linear-gradient(90deg, rgba(128,149,217,1) 0%, rgba(127,145,218,1) 100%);
+}
+
+.nd{
+    height: 35px;
+    background-color: #5E669C;
+}

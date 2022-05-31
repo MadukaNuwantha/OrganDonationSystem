@@ -1,0 +1,30 @@
+.bgca{
+    background: rgb(169,204,210);
+    background: linear-gradient(145deg, rgba(129,197,177,1) 0%, rgba(113,169,185,1) 100%);
+    height: fit-content;
+    padding: 270px 80px 45px 80px;
+    margin: 150px 30px 45px 30px;
+    border-radius: 170px;
+}
+
+.imga{
+    position: absolute;
+    height: 350px;
+    Width: auto;
+    left: 55%;
+    top: 100px;
+    border-radius: 120px;
+}
+
+.txtPanea{
+    padding: 0% 25% 0% 25%;
+}
+
+.rectangle{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 28px;
+    padding: 30px;
+}

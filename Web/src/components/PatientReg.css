@@ -1,0 +1,33 @@
+.bgcy{
+    background: rgb(169,204,210);
+    background: linear-gradient(145deg, rgba(113,169,185,1) 0%, rgba(129,197,177,1) 100%);
+    height: fit-content;
+    padding: 250px 80px 45px 80px;
+    margin: 150px 30px 45px 30px;
+    border-radius: 170px;
+}
+
+.spcy{
+    margin-left: 18%;
+}
+
+.imgy{
+    position: absolute;
+    height: 350px;
+    left: 65%;
+    top: 100px;
+    border-radius: 120px;
+}
+
+.txtPaney{
+    padding: 0% 25% 0% 25%;
+}
+
+.rectangley{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 28px;
+    padding: 30px;
+}

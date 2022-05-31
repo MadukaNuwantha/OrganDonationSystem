@@ -1,0 +1,24 @@
+.bgcd{
+    background: rgb(169,204,210);
+    background: linear-gradient(145deg, rgba(169,204,210,1) 0%, rgba(131,138,227,1) 100%);
+    height: fit-content;
+    padding: 270px 80px 45px 80px;
+    margin: 150px 30px 45px 30px;
+    border-radius: 170px;
+}
+
+.imgd{
+    position: absolute;
+    height: 350px;
+    left: 65%;
+    top: 100px;
+    border-radius: 120px;
+}
+
+.txtPaned{
+    padding: 0% 25% 0% 25%;
+}
+
+.spcd{
+    margin-left: 18%;
+}
