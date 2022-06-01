@@ -6,7 +6,6 @@ import 'package:OrganDonorApp/providers/organ_provider.dart';
 import 'package:OrganDonorApp/providers/patient_provider.dart';
 import 'package:OrganDonorApp/routes/screen_routes.dart';
 import 'package:OrganDonorApp/screens/dashboard_screens/splash_screen.dart';
-import 'package:OrganDonorApp/test_screen.dart';
 import 'package:OrganDonorApp/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

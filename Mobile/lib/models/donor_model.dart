@@ -30,8 +30,6 @@ class Donor {
   String mobile;
   String prefContact;
   String donateType;
-  String ethnicity;
-  String religion;
   String hiv;
   String asc;
   String diabets;
@@ -59,8 +57,6 @@ class Donor {
     required this.mobile,
     required this.prefContact,
     required this.donateType,
-    required this.ethnicity,
-    required this.religion,
     required this.hiv,
     required this.asc,
     required this.diabets,
@@ -89,8 +85,6 @@ class Donor {
         mobile: json["mobile"],
         prefContact: json["prefContact"],
         donateType: json["donateType"],
-        ethnicity: json["ethnicity"],
-        religion: json["religion"],
         hiv: json["hiv"],
         asc: json["asc"],
         diabets: json["diabets"],
@@ -120,8 +114,6 @@ class Donor {
         "mobile": mobile,
         "prefContact": prefContact,
         "donateType": donateType,
-        "ethnicity": ethnicity,
-        "religion": religion,
         "hiv": hiv,
         "asc": asc,
         "diabets": diabets,

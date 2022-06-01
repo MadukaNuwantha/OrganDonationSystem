@@ -2,7 +2,6 @@ import 'package:OrganDonorApp/constants.dart';
 import 'package:OrganDonorApp/providers/donor_provider.dart';
 import 'package:OrganDonorApp/screens/secondary_screens/select_string_screen.dart';
 import 'package:OrganDonorApp/utils/select_util.dart';
-import 'package:OrganDonorApp/widgets/checkbox_input_field.dart';
 import 'package:OrganDonorApp/widgets/select_input_field.dart';
 import 'package:OrganDonorApp/widgets/submit_button.dart';
 import 'package:OrganDonorApp/widgets/text_input_field.dart';
@@ -41,8 +40,6 @@ class _DonorSignUpScreenState extends State<DonorSignUpScreen> {
   late TextEditingController mobile = TextEditingController();
   late TextEditingController formOfContact = TextEditingController();
   late TextEditingController donateOrgan = TextEditingController();
-  late TextEditingController ethnicity = TextEditingController();
-  late TextEditingController religion = TextEditingController();
   late DateTime dob;
   late bool hasHiv;
   late bool hasCancer;
@@ -225,32 +222,6 @@ class _DonorSignUpScreenState extends State<DonorSignUpScreen> {
                       ),
                     ],
                   ),
-                  SelectInputField(() {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: ((context) =>
-                            SelectStringScreen(Constants.ethnicList)),
-                      ),
-                    ).whenComplete(
-                      () {
-                        ethnicity.text = Selected.selectedString;
-                      },
-                    );
-                  }, ethnicity, 'Ethnicity', 'Ethnicity'),
-                  SelectInputField(() {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: ((context) =>
-                            SelectStringScreen(Constants.religionList)),
-                      ),
-                    ).whenComplete(
-                      () {
-                        religion.text = Selected.selectedString;
-                      },
-                    );
-                  }, religion, 'Religion', 'Religion'),
                   const SizedBox(height: 15),
                   Row(
                     children: [
@@ -523,8 +494,6 @@ class _DonorSignUpScreenState extends State<DonorSignUpScreen> {
         mobile.text,
         formOfContact.text,
         donateOrgan.text,
-        ethnicity.text,
-        religion.text,
         hasHiv.toString(),
         hasCancer.toString(),
         hasDiabetes.toString(),
