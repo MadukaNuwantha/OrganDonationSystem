@@ -32,7 +32,7 @@ class Donor {
   String donateType;
   String hiv;
   String asc;
-  String diabets;
+  String diabetes;
   String kidneyDisease;
   String heartDisease;
   String none;
@@ -59,7 +59,7 @@ class Donor {
     required this.donateType,
     required this.hiv,
     required this.asc,
-    required this.diabets,
+    required this.diabetes,
     required this.kidneyDisease,
     required this.heartDisease,
     required this.none,
@@ -87,7 +87,7 @@ class Donor {
         donateType: json["donateType"],
         hiv: json["hiv"],
         asc: json["asc"],
-        diabets: json["diabets"],
+        diabetes: json["diabetes"],
         kidneyDisease: json["kidneyDisease"],
         heartDisease: json["heartDisease"],
         none: json["none"],
@@ -116,7 +116,7 @@ class Donor {
         "donateType": donateType,
         "hiv": hiv,
         "asc": asc,
-        "diabets": diabets,
+        "diabetes": diabetes,
         "kidneyDisease": kidneyDisease,
         "heartDisease": heartDisease,
         "none": none,
